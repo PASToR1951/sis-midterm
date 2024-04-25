@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>SPU Dumaguete Portal</title>
+    
     <link rel="icon" href="{{ asset('global_assets/images/favicon.png') }}">
     @include('partials.login.inc_top')
 </head>
