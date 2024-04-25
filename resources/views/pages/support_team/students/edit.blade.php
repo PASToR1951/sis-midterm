@@ -97,7 +97,7 @@
 
                         <div class="col-md-3">
                             <label for="lga_id">Municipality/City: <span class="text-danger">*</span></label>
-                            <select required data-placeholder="Select State First" class="select-search form-control" name="lga_id" id="lga_id">
+                            <select required data-placeholder="Select Province First" class="select-search form-control" name="lga_id" id="lga_id">
                                 @if($sr->user->lga_id)
                                     <option selected value="{{ $sr->user->lga_id }}">{{ $sr->user->lga->name}}</option>
                                 @endif
