@@ -41,7 +41,7 @@
                                 <div class="form-check mb-0">
                                     <label class="form-check-label">
                                         <input type="checkbox" name="remember" class="form-input-styled" {{ old('remember') ? 'checked' : '' }} data-fouc>
-                                        Remember
+                                        Remember Me
                                     </label>
                                 </div>
 
