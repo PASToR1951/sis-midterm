@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'SPU Dumaguete') }}</title>
-
+    <title>SPU Dumaguete Portal</title>
+    <link rel="icon" href="{{ asset('global_assets/images/favicon.png') }}">
     @include('partials.login.inc_top')
 </head>
 
