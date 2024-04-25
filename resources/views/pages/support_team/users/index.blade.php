@@ -138,7 +138,7 @@
                                 </div>
                                 {{--LGA--}}
                                 <div class="col-md-4">
-                                    <label for="lga_id">LGA: <span class="text-danger">*</span></label>
+                                    <label for="lga_id">Municipality/City: <span class="text-danger">*</span></label>
                                     <select required data-placeholder="Select State First" class="select-search form-control" name="lga_id" id="lga_id">
                                         <option value=""></option>
                                     </select>
